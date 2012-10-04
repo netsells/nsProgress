@@ -16,7 +16,7 @@ To get started, place a div in your source and call the plugin on it to initiali
 
         // Custom Settings
         $('#progress_modal').nsProgress({
-            img_path: 'js/plugins/nsProgress'
+            img_path: 'js/plugins/nsProgress/img'
         });
 
     });
@@ -82,4 +82,5 @@ $('#progress_modal').nsProgress('dismiss');
 Feel free to fork and add any of these if I don't get round to doing them :)
 
 * Delayed dissmissal message like SVProgressHUD has (eg, SVProgressHUD dismissWithError:@"Error Connecting")
+* Swap out for retina if the @2x images exist
 * More config settings
