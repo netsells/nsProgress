@@ -4,7 +4,7 @@
         init : function(options) {
 
             var defaults = {
-                img_path: 'nsProgress'
+                img_path: 'nsProgress/img'
             };
 
             options = $.extend(defaults, options);
